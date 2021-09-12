@@ -5,7 +5,7 @@ const { Sentry } = require("../sentry");
 const { TELEMETRY } = require("../constants");
 const { getConfirmationQuorumPeers } = require("./nodeMonitors");
 
-const BASE_DIFFICULTY = 0xfffffff800000000;
+const BASE_DIFFICULTY = 0xfffffe0000000000;
 
 const getMultiplierFromBaseDifficulty = difficulty =>
   (2 ** 64 - BASE_DIFFICULTY) / (2 ** 64 - parseInt(difficulty, 16));
