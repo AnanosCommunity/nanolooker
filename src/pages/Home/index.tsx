@@ -157,9 +157,10 @@ const HomePage = () => {
                   isLoading={!representatives.length}
                   title={t("pages.home.principalRepOnline")}
                   value={
-                    representatives.filter(
+                    /*representatives.filter(
                       ({ isOnline, isPrincipal }) => isOnline && isPrincipal,
-                    )?.length
+                    )?.length*/
+                    0
                   }
                 />
                 <LoadingStatistic

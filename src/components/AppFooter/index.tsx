@@ -10,7 +10,7 @@ const { Text } = Typography;
 const { Footer } = Layout;
 
 export const DONATION_ACCOUNT =
-  "nano_1gxx3dbrprrh9ycf1p5wo9qgmftppg6z7688njum14aybjkaiweqmwpuu9py";
+  "ana_1gxx3dbrprrh9ycf1p5wo9qgmftppg6z7688njum14aybjkaiweqmwpuu9py";
 
 const AppFooter: React.FC = () => {
   const { t } = useTranslation();

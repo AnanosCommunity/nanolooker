@@ -50,6 +50,7 @@ const AccountHistory: React.FC = () => {
 
   const count = new BigNumber(accountInfo?.block_count || 0).toFormat();
   const delegatorsCount = allDelegators[account];
+  console.log(representatives);
   const representative = representatives.find(
     ({ account: representativeAccount }) => representativeAccount === account,
   );
